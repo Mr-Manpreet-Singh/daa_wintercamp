@@ -1,0 +1,38 @@
+Video Lectures Questions
+----------------------------------------------------------------------
+1.     Subarray with zero sum   (unordered_set)
+        Sol 1> prefix sum sub array , comulitive frequency type
+            2> if prefix sum at any point is zero tht meas sub-array  present and starts with index zero  
+            3> if element is repeated in prefix sum ten the sub array is present
+
+            we use unordered_set to do the same method used --set_name.insert(); set_name.find(val)
+        //T1
+            //1 4 13 -3-10 5
+        //preSum 1 5 18 15 5  5
+
+        //T2
+            //1 3 -4 -3 -10  5
+        //preSum 1 4  0 -3 -13 -8
+
+
+            --E:\Coding\C++\GFG\SubArrayWith0Sum.cpp
+
+2.      Subarray with given-Sum
+        Sol  1> pre sum
+             2> if (preSum==givenSum) in set  then yes
+             3> if (preSum -Given sum)  present then yes
+        E:\Coding\C++\GFG\SubArrayWithGivenSum.cpp
+
+
+3.      Length of Longest Sub-array with given-Sum     (unordered_map)
+        1> pre sum ;
+        2>
+    
+
+4.      unique elements 
+        -- Native sol N^2  two for loops    0...n  and 0...i 
+        -- unorderd set   insert
+        -- unordered_set<int>s (arr,arr+n);
+
+5.      Occurence of all the elements
+        E:\Coding\C++\GFG\occurenceOfElements.cpp
